@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "webworker",
+      "es6",
+      "es2016",
+      "esnext"
+    ],
+    "jsx": "react",
+    "sourceMap": true,
+    "strict": false,
+    "allowJs": false,
+    "noImplicitAny": false,
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "exclude": [
+    "./config",
+    "./node_modules",
+    "./**/*.js"
+  ],
+  "include": [
+    "src"
+  ]
+}
